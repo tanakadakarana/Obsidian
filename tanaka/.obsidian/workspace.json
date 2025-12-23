@@ -1,0 +1,236 @@
+{
+  "main": {
+    "id": "abe6c62fd9d8178f",
+    "type": "split",
+    "children": [
+      {
+        "id": "341a27fda3e61d30",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c9d6fa1a8e9efb3d",
+            "type": "leaf",
+            "state": {
+              "type": "thino_view",
+              "state": {},
+              "icon": "Memos",
+              "title": "Thino"
+            }
+          },
+          {
+            "id": "06f1c5f538340b60",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "99.Inbox/20251224.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "20251224"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4efabb380bde1d97",
+    "type": "split",
+    "children": [
+      {
+        "id": "7038ec8b31297d32",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8900e3b643f09f23",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "ファイルエクスプローラ"
+            }
+          },
+          {
+            "id": "5001ea104c363e33",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "検索"
+            }
+          },
+          {
+            "id": "fed42e2f76029996",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "ブックマーク"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 249.5
+  },
+  "right": {
+    "id": "45b6e198dd2dbb50",
+    "type": "split",
+    "children": [
+      {
+        "id": "2656dcddc5c19cf1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f04ff6ba162f7786",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "アウトゴーイングリンク"
+            }
+          },
+          {
+            "id": "45cf6bef296d17ec",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "タグ"
+            }
+          },
+          {
+            "id": "89644e458890616a",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "すべてのプロパティ"
+            }
+          },
+          {
+            "id": "0f793ec4c5e43ac1",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "アウトライン"
+            }
+          },
+          {
+            "id": "5516a282e3134d8e",
+            "type": "leaf",
+            "state": {
+              "type": "smtcmp-chat-view",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "smtcmp-chat-view"
+            }
+          },
+          {
+            "id": "ebcddb8cb2a556d7",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:Create new base": false,
+      "switcher:クイックスイッチャーを開く": false,
+      "graph:グラフビューを開く": false,
+      "daily-notes:今日のデイリーノートを開く": false,
+      "templates:テンプレートを挿入": false,
+      "command-palette:コマンドパレットを開く": false,
+      "obsidian-memos:Thino": false,
+      "obsidian-git:Open Git source control": false,
+      "obsidian-kindle-plugin:Sync your Kindle highlights": false
+    }
+  },
+  "active": "06f1c5f538340b60",
+  "lastOpenFiles": [
+    "Excalidraw/Drawing 2025-12-19 10.59.59.excalidraw.md",
+    "99.Inbox/20251224.md",
+    "99.Inbox/20251223.md",
+    "99.Inbox/20251223(1).md",
+    "99.Inbox/深井・けんすうのまぼろし会議.md",
+    "99.Inbox/20251223(2).md",
+    "99.Inbox/20251222.md",
+    "99.Inbox/20251222(1).md",
+    "99.Inbox/20251221.md",
+    "読書ページ.md",
+    "99.Inbox/20251219.md",
+    "Excalidraw/Drawing 2025-12-19 14.04.06.excalidraw.md",
+    "99.Inbox/memo.md",
+    "_gemini",
+    "新しいフォルダー",
+    "template/DairyTemplate.md",
+    "template/気づきメモ.md",
+    "Excalidraw",
+    "99.Inbox/20251219(1).md",
+    "20.reading/読書猿-独学大全公式副読本――「鈍器本」の使い方がこの１冊で全部わかる.md",
+    "20.reading/井上裕之-一流の人間力.md",
+    "20.reading/スコット・アラン-弓場隆-GREAT LIFE 一度しかない人生を最高の人生にする方法 プレミアムカバー.md",
+    "20.reading/Testosterone-岡琢哉-心を壊さない生き方　超ストレス社会を生き抜くメンタルの教科書.md",
+    "20.reading/ぐりーん-株・スイングトレードで月10万円稼ぐ技術4.md",
+    "20.reading/ぐりーん-株・スイングトレードで月10万円稼ぐ技術.md",
+    "20.reading/(Yuihondo)-2週間で合格！AWS認定資格 AIプラクティショナー 【AIF-01 対応】).md",
+    "20.reading/鈴木祐-無（最高の状態）.md",
+    "20.reading/羊一-０秒で動け　「わかってはいるけど動けない」人のための.md",
+    "20.reading/渉-任せるコツ.md",
+    "template",
+    "20.reading",
+    "10.podcast",
+    "00.study",
+    "99.Inbox"
+  ]
+}
