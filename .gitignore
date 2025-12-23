@@ -1,3 +1,17 @@
 .hidden
 .Trash/
 desktop.ini
+# OSゴミファイル
+.DS_Store
+Thumbs.db
+
+# Obsidianの一時情報
+.obsidian/workspace
+.obsidian/cache
+
+# モバイル連携時のファイル
+.obsidian/ob-mobile.json
+
+# 一時ファイル
+*.swp
+*~

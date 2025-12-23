@@ -32,8 +32,7 @@
               "title": "20251224"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -181,7 +180,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 399.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -196,10 +195,11 @@
       "obsidian-kindle-plugin:Sync your Kindle highlights": false
     }
   },
-  "active": "06f1c5f538340b60",
+  "active": "ebcddb8cb2a556d7",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2025-12-19 10.59.59.excalidraw.md",
+    "読書ページ.md",
     "99.Inbox/20251224.md",
+    "Excalidraw/Drawing 2025-12-19 10.59.59.excalidraw.md",
     "99.Inbox/20251223.md",
     "99.Inbox/20251223(1).md",
     "99.Inbox/深井・けんすうのまぼろし会議.md",
@@ -207,7 +207,6 @@
     "99.Inbox/20251222.md",
     "99.Inbox/20251222(1).md",
     "99.Inbox/20251221.md",
-    "読書ページ.md",
     "99.Inbox/20251219.md",
     "Excalidraw/Drawing 2025-12-19 14.04.06.excalidraw.md",
     "99.Inbox/memo.md",

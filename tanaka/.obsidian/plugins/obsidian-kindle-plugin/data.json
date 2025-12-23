@@ -3,7 +3,7 @@
   "highlightsFolder": "20.reading",
   "lastSyncMode": "amazon",
   "isLoggedIn": true,
-  "syncOnBoot": true,
+  "syncOnBoot": false,
   "downloadBookMetadata": true,
-  "lastSyncDate": "2025-12-23T16:08:43.171Z"
+  "lastSyncDate": "2025-12-23T16:58:30.018Z"
 }
