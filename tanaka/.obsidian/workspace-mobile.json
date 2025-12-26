@@ -8,22 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "05e0ec6f3471ca96",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "99.Inbox/20251223.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "20251223"
-            }
-          },
-          {
-            "id": "bb7fd5f0e0284f79",
+            "id": "c6be0967a53b67f9",
             "type": "leaf",
             "state": {
               "type": "thino_view",
@@ -31,9 +16,39 @@
               "icon": "Memos",
               "title": "Thino"
             }
+          },
+          {
+            "id": "a7467b335ae013b7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "99.Inbox/20251226.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "20251226"
+            }
+          },
+          {
+            "id": "2986b39df6e798de",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "99.Inbox/20251226.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "20251226"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -175,10 +190,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bb7fd5f0e0284f79",
+  "active": "2986b39df6e798de",
   "lastOpenFiles": [
-    "99.Inbox/20251223.md",
+    "99.Inbox/20251224.md",
+    "99.Inbox/20251226.md",
+    "99.Inbox/20251225.md",
     "99.Inbox/20251222.md",
+    "99.Inbox/20251223.md",
     "template/気づきメモ.md",
     "99.Inbox/20251221.md",
     "00.案件別/仕様書.md",
