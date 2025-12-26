@@ -31,8 +31,24 @@
               "icon": "lucide-file",
               "title": "20251224"
             }
+          },
+          {
+            "id": "4b54ccd4d5da932f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "99.Inbox/20251226.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "20251226"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -195,9 +211,10 @@
       "obsidian-kindle-plugin:Sync your Kindle highlights": false
     }
   },
-  "active": "ebcddb8cb2a556d7",
+  "active": "4b54ccd4d5da932f",
   "lastOpenFiles": [
     "読書ページ.md",
+    "99.Inbox/20251226.md",
     "99.Inbox/20251224.md",
     "Excalidraw/Drawing 2025-12-19 10.59.59.excalidraw.md",
     "99.Inbox/20251223.md",
@@ -225,7 +242,6 @@
     "20.reading/(Yuihondo)-2週間で合格！AWS認定資格 AIプラクティショナー 【AIF-01 対応】).md",
     "20.reading/鈴木祐-無（最高の状態）.md",
     "20.reading/羊一-０秒で動け　「わかってはいるけど動けない」人のための.md",
-    "20.reading/渉-任せるコツ.md",
     "template",
     "20.reading",
     "10.podcast",
