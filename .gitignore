@@ -2,28 +2,28 @@
 .Trash/
 desktop.ini
 
-# Obsidian‚Ìˆêî•ñ
+# Obsidianã®ä¸€æ™‚æƒ…å ±
 .obsidian/workspace
 .obsidian/cache
 
-# ƒ‚ƒoƒCƒ‹˜AŒg‚Ìƒtƒ@ƒCƒ‹
+# ãƒ¢ãƒã‚¤ãƒ«é€£æºæ™‚ã®ãƒ•ã‚¡ã‚¤ãƒ«
 .obsidian/ob-mobile.json
 
-# ˆêƒtƒ@ƒCƒ‹
+# ä¸€æ™‚ãƒ•ã‚¡ã‚¤ãƒ«
 *.swp
 *~
 
-# ƒ[ƒNƒXƒy[ƒXiƒEƒBƒ“ƒhƒEó‘Ôj‚Ì‚İ–³‹
+# ãƒ¯ãƒ¼ã‚¯ã‚¹ãƒšãƒ¼ã‚¹ï¼ˆã‚¦ã‚£ãƒ³ãƒ‰ã‚¦çŠ¶æ…‹ï¼‰ã®ã¿ç„¡è¦–
 .obsidian/workspace.json
 .obsidian/workspaces.json
 .obsidian.mobile/workspace.json
 .obsidian.mobile/workspaces.json
 
-# ƒLƒƒƒbƒVƒ…ƒtƒ@ƒCƒ‹
+# ã‚­ãƒ£ãƒƒã‚·ãƒ¥ãƒ•ã‚¡ã‚¤ãƒ«
 .obsidian/cache/
 .obsidian.mobile/cache/
 
-# OSŒÅ—Lƒtƒ@ƒCƒ‹
+# OSå›ºæœ‰ãƒ•ã‚¡ã‚¤ãƒ«
 .DS_Store
 Thumbs.db
 EOF
