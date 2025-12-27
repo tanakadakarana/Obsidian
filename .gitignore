@@ -1,9 +1,6 @@
 .hidden
 .Trash/
 desktop.ini
-# OSゴミファイル
-.DS_Store
-Thumbs.db
 
 # Obsidianの一時情報
 .obsidian/workspace
@@ -15,3 +12,18 @@ Thumbs.db
 # 一時ファイル
 *.swp
 *~
+
+# ワークスペース（ウィンドウ状態）のみ無視
+.obsidian/workspace.json
+.obsidian/workspaces.json
+.obsidian.mobile/workspace.json
+.obsidian.mobile/workspaces.json
+
+# キャッシュファイル
+.obsidian/cache/
+.obsidian.mobile/cache/
+
+# OS固有ファイル
+.DS_Store
+Thumbs.db
+EOF
