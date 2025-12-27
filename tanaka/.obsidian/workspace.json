@@ -31,24 +31,8 @@
               "icon": "lucide-file",
               "title": "20251227"
             }
-          },
-          {
-            "id": "0c15ed92c1b3bbb8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "20.reading/Claude研究家　アイ-じいじ出版-Claude 3.5 Sonnet 徹底解説.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Claude研究家　アイ-じいじ出版-Claude 3.5 Sonnet 徹底解説"
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -212,13 +196,14 @@
       "obsidian-kindle-plugin:Sync your Kindle highlights": false
     }
   },
-  "active": "0c15ed92c1b3bbb8",
+  "active": "c9d6fa1a8e9efb3d",
   "lastOpenFiles": [
-    "20.reading/(Yuihondo)-2週間で合格！AWS認定資格 AIプラクティショナー 【AIF-01 対応】).md",
+    "99.Inbox/20251227.md",
     "読書ページ.md",
+    "20.reading/Claude研究家　アイ-じいじ出版-Claude 3.5 Sonnet 徹底解説.md",
+    "20.reading/(Yuihondo)-2週間で合格！AWS認定資格 AIプラクティショナー 【AIF-01 対応】).md",
     "99.Inbox/20251220.md",
     "99.Inbox/20251219.md",
-    "99.Inbox/20251227.md",
     "99.Inbox/20251227(2).md",
     "99.Inbox/20251227(1).md",
     "99.Inbox/20251225.md",
@@ -243,7 +228,6 @@
     "template/DairyTemplate.md",
     "template/気づきメモ.md",
     "Excalidraw",
-    "99.Inbox/20251219(1).md",
     "template",
     "20.reading",
     "10.podcast",

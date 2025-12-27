@@ -3,5 +3,6 @@
   "newFileFolderPath": "99.Inbox",
   "attachmentFolderPath": "99.Inbox",
   "promptDelete": false,
-  "showLineNumber": true
+  "showLineNumber": true,
+  "readableLineLength": false
 }
