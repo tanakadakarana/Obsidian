@@ -11,10 +11,15 @@
             "id": "c6be0967a53b67f9",
             "type": "leaf",
             "state": {
-              "type": "thino_view",
-              "state": {},
-              "icon": "Memos",
-              "title": "Thino"
+              "type": "markdown",
+              "state": {
+                "file": "99.Inbox/20251227.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "20251227"
             }
           },
           {
@@ -199,12 +204,10 @@
       "daily-notes:今日のデイリーノートを開く": false,
       "templates:テンプレートを挿入": false,
       "command-palette:コマンドパレットを開く": false,
-      "bases:Create new base": false,
-      "obsidian-memos:Thino": false,
-      "obsidian-git:Open Git source control": false
+      "bases:Create new base": false
     }
   },
-  "active": "c6be0967a53b67f9",
+  "active": "2819ea9b4e68f565",
   "lastOpenFiles": [
     "99.Inbox/20251227.md",
     "99.Inbox/20251224.md",
