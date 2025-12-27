@@ -105,7 +105,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 606.5
+    "width": 289.5
   },
   "right": {
     "id": "45b6e198dd2dbb50",
@@ -196,7 +196,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 319.5
+    "width": 319.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -211,7 +212,7 @@
       "obsidian-kindle-plugin:Sync your Kindle highlights": false
     }
   },
-  "active": "8900e3b643f09f23",
+  "active": "0c15ed92c1b3bbb8",
   "lastOpenFiles": [
     "20.reading/(Yuihondo)-2週間で合格！AWS認定資格 AIプラクティショナー 【AIF-01 対応】).md",
     "読書ページ.md",
