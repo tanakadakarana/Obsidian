@@ -3,6 +3,17 @@
 ★★★★★
 ☆☆☆☆☆
 
+- [ ] Read:
+- [ ] Kindle:
+- [ ] mikan
+- [ ] Duolingo
+- [ ] Training(Chocozap)
+- [ ] Mind Fullness
+- [ ] Study
+- [ ] Voicy Araki Book Cafe
+- [ ] Podcast
+- [ ] Audible
+- [ ] Schoo
 ## 今日の一言
 
 
@@ -28,7 +39,9 @@
 
 
 ## A:Acition
-
+- [ ] 1. 
+- [ ] 2. 
+- [ ] 3. 
 
 ---
 ## ■Thino Log
