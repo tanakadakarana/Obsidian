@@ -32,8 +32,7 @@
               "title": "20251231"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -196,10 +195,11 @@
       "obsidian-kindle-plugin:Sync your Kindle highlights": false
     }
   },
-  "active": "e174aa5f5cd1c6dd",
+  "active": "c9d6fa1a8e9efb3d",
   "lastOpenFiles": [
-    "template/読書テンプレート.md",
+    "99.Inbox/20251231.md",
     "99.Inbox/20251230.md",
+    "template/読書テンプレート.md",
     "template/DairyTemplate.md",
     "99.Inbox/20251229.md",
     "99.Inbox/20251227.md",
@@ -224,7 +224,6 @@
     "99.Inbox/深井・けんすうのまぼろし会議.md",
     "99.Inbox/20251223(2).md",
     "99.Inbox/20251222.md",
-    "99.Inbox/20251222(1).md",
     "_gemini",
     "新しいフォルダー",
     "Excalidraw",
