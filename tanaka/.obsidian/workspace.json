@@ -31,8 +31,19 @@
               "icon": "lucide-file",
               "title": "20251231"
             }
+          },
+          {
+            "id": "6d3dcdd028b85b36",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新規タブ"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -195,17 +206,22 @@
       "obsidian-kindle-plugin:Sync your Kindle highlights": false
     }
   },
-  "active": "c9d6fa1a8e9efb3d",
+  "active": "8900e3b643f09f23",
   "lastOpenFiles": [
+    "99.Inbox/無題のファイル.md",
     "99.Inbox/20251231.md",
+    "読書ページ.md",
+    "template/DairyTemplate.md",
+    "template/月次振り返りと調整.md",
+    "template/週次振り返り.md",
+    "99.Inbox/月次アジャストメント.md",
+    "99.Inbox/無題のファイル(1).md",
     "99.Inbox/20251230.md",
     "template/読書テンプレート.md",
-    "template/DairyTemplate.md",
     "99.Inbox/20251229.md",
     "99.Inbox/20251227.md",
     "99.Inbox/20251228.md",
     "Excalidraw/Drawing 2025-12-19 10.59.59.excalidraw.md",
-    "読書ページ.md",
     "20.reading/Claude研究家　アイ-じいじ出版-Claude 3.5 Sonnet 徹底解説.md",
     "20.reading/(Yuihondo)-2週間で合格！AWS認定資格 AIプラクティショナー 【AIF-01 対応】).md",
     "99.Inbox/20251220.md",
@@ -219,11 +235,6 @@
     "20.reading/齊島聡汰-1日10分！NotebookLM勉強革命.md",
     "99.Inbox/20251226(1).md",
     "99.Inbox/https___note.com_ogasawarahayato_n_n9c94ca090e21.txt",
-    "99.Inbox/20251223.md",
-    "99.Inbox/20251223(1).md",
-    "99.Inbox/深井・けんすうのまぼろし会議.md",
-    "99.Inbox/20251223(2).md",
-    "99.Inbox/20251222.md",
     "_gemini",
     "新しいフォルダー",
     "Excalidraw",
