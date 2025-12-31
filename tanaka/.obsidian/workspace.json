@@ -16,8 +16,24 @@
               "icon": "Memos",
               "title": "Thino"
             }
+          },
+          {
+            "id": "e174aa5f5cd1c6dd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "99.Inbox/20251231.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "20251231"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -180,10 +196,10 @@
       "obsidian-kindle-plugin:Sync your Kindle highlights": false
     }
   },
-  "active": "c9d6fa1a8e9efb3d",
+  "active": "e174aa5f5cd1c6dd",
   "lastOpenFiles": [
-    "99.Inbox/20251230.md",
     "template/読書テンプレート.md",
+    "99.Inbox/20251230.md",
     "template/DairyTemplate.md",
     "99.Inbox/20251229.md",
     "99.Inbox/20251227.md",
