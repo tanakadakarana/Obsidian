@@ -32,8 +32,7 @@
               "title": "20260101"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -196,11 +195,12 @@
       "obsidian-kindle-plugin:Sync your Kindle highlights": false
     }
   },
-  "active": "e174aa5f5cd1c6dd",
+  "active": "c9d6fa1a8e9efb3d",
   "lastOpenFiles": [
+    "99.Inbox/20260101.md",
+    "読書ページ.md",
     "99.Inbox/20251231.md",
     "99.Inbox/無題のファイル.md",
-    "読書ページ.md",
     "template/DairyTemplate.md",
     "template/月次振り返りと調整.md",
     "template/週次振り返り.md",
@@ -223,7 +223,6 @@
     "20.reading/Mr.ゼロイチ-ゼロイチ出版-Google Gemini 3.0 Pro 完全ガイド.md",
     "99.Inbox/20251226.md",
     "20.reading/齊島聡汰-1日10分！NotebookLM勉強革命.md",
-    "99.Inbox/20251226(1).md",
     "99.Inbox/https___note.com_ogasawarahayato_n_n9c94ca090e21.txt",
     "_gemini",
     "新しいフォルダー",
