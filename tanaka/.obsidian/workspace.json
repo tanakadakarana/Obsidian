@@ -23,27 +23,17 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "99.Inbox/20251231.md",
+                "file": "99.Inbox/20260101.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "20251231"
-            }
-          },
-          {
-            "id": "6d3dcdd028b85b36",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "新規タブ"
+              "title": "20260101"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -206,10 +196,10 @@
       "obsidian-kindle-plugin:Sync your Kindle highlights": false
     }
   },
-  "active": "8900e3b643f09f23",
+  "active": "e174aa5f5cd1c6dd",
   "lastOpenFiles": [
-    "99.Inbox/無題のファイル.md",
     "99.Inbox/20251231.md",
+    "99.Inbox/無題のファイル.md",
     "読書ページ.md",
     "template/DairyTemplate.md",
     "template/月次振り返りと調整.md",

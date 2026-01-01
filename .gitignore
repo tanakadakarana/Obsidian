@@ -27,4 +27,7 @@ desktop.ini
 .DS_Store
 Thumbs.db
 EOF
+
+# デフォルトで新規作成されるファイル
 /tanaka/99.Inbox/無題のファイル.md
+
