@@ -47,8 +47,7 @@
               "title": "20260102"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -180,6 +179,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "terminal:Open terminal": false,
       "switcher:クイックスイッチャーを開く": false,
       "graph:グラフビューを開く": false,
       "daily-notes:今日のデイリーノートを開く": false,
@@ -190,12 +190,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8e5bf9f50a876d1a",
+  "active": "f5ce7976b700b093",
   "lastOpenFiles": [
-    "99.Inbox/20260101.md",
     "99.Inbox/20260102.md",
-    "99.Inbox/20251222.md",
     "99.Inbox/20251224.md",
+    "99.Inbox/20260101.md",
+    "99.Inbox/20251222.md",
     "podcastメモ.md",
     "template/週次振り返り.md",
     "template/月次振り返りと調整.md",
