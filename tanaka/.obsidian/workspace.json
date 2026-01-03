@@ -23,16 +23,17 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "99.Inbox/20260102.md",
+                "file": "template/DairyTemplate.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "20260102"
+              "title": "DairyTemplate"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -196,11 +197,11 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "c9d6fa1a8e9efb3d",
+  "active": "1e0cb64312674cae",
   "lastOpenFiles": [
     "99.Inbox/20260103.md",
-    "99.Inbox/20260102.md",
     "Excalidraw/Drawing 2025-12-19 10.59.59.excalidraw.md",
+    "99.Inbox/20260102.md",
     "GEMINI_Qiita.md",
     "99.Inbox/memo.md",
     "99.Inbox/Zettelkasten解説.md",
