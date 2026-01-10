@@ -1,0 +1,16 @@
+filters:
+  and:
+    - file.ext == "md"
+    - file.folder == "80_WebClip"
+views:
+  - type: cards
+    name: Card
+    sort:
+      - property: file.name
+        direction: DESC
+    image: note.image
+    imageFit: contain
+    imageAspectRatio: 0.35
+    cardSize: 200
+  - type: table
+    name: Table
