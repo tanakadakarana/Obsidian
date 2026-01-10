@@ -106,12 +106,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "読書ページ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "読書ページからのアウトゴーイングリンク"
+              "title": "アウトゴーイングリンク"
             }
           },
           {
@@ -149,13 +148,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "読書ページ.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "読書ページのアウトライン"
+              "title": "アウトライン"
             }
           },
           {
@@ -199,10 +197,10 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "419d0d7596e7c806",
+  "active": "6b95c2516f0c70d2",
   "lastOpenFiles": [
-    "80_WebClip/20260110_1402_コードを書く前に“仕様”を書く。AI時代の新潮流「仕様駆動開発」って何？｜Tech千一夜｜ソフトウェアの作り方チャンネル.md",
     "読書ページ.md",
+    "80_WebClip/20260110_1402_コードを書く前に“仕様”を書く。AI時代の新潮流「仕様駆動開発」って何？｜Tech千一夜｜ソフトウェアの作り方チャンネル.md",
     "20.reading/越川慎司-AI分析でわかったトップ5％社員の読書術.md",
     "20.reading/教員AI研究所-教員向けNotebookLM活用アイデア20-教師のAI仕事術.md",
     "20.reading/田中渓-億までの人　億からの人　ゴールドマン・サックス勤続１７年の投資家が明かす「兆人」のマインド.md",
