@@ -1,0 +1,19 @@
+{
+  "types": {
+    "aliases": "aliases",
+    "cssclasses": "multitext",
+    "tags": "tags",
+    "kindle": "checkbox",
+    "read": "checkbox",
+    "mikan": "checkbox",
+    "duo": "checkbox",
+    "mindfullness": "checkbox",
+    "study": "checkbox",
+    "voicy_araki": "checkbox",
+    "podcast": "checkbox",
+    "audible": "checkbox",
+    "flush": "checkbox",
+    "schoo": "checkbox",
+    "chochozap": "checkbox"
+  }
+}

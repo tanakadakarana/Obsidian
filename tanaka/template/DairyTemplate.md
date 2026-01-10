@@ -1,31 +1,31 @@
-
-## 昨日の評価
-★★★★★
-☆☆☆☆☆
-
-- [ ] Read:
-- [ ] Kindle:
-- [ ] mikan
-- [ ] Duolingo
-- [ ] Training(Chocozap)
-- [ ] Mind Fullness
-- [ ] Study
-- [ ] Voicy Araki Book Cafe
-- [ ] Podcast
-- [ ] Audible
-- [ ] Schoo
-
-## 昨日と今日の天気
-
-
-## 今日の一言
-
+---
+tags:
+  - diary
+publish: "false"
+date: "{{date}}"
+score: ★★★★★☆☆☆☆☆
+good3:
+word:
+weather:
+flush: false
+read: false
+kindle: false
+mikan: false
+duo: false
+chochozap: false
+mindfullness: false
+study: false
+voicy_araki: false
+podcast: false
+audible: false
+schoo: false
+modified: 2026-01-10T16:03:50+09:00
+---
 
 ## ★3GoodThings★
-- 1.
-- 2.
-- 3.
-
+- 
+- 
+- 
 
 ## C:Check
 

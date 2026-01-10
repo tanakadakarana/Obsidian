@@ -1,0 +1,70 @@
+properties:
+  file.name:
+    displayName: FILE
+  note.date:
+    displayName: 日
+  note.flush:
+    displayName: 🚀
+  note.read:
+    displayName: 📗
+  note.kindle:
+    displayName: 📖
+  note.mikan:
+    displayName: 🍊
+  note.duo:
+    displayName: 🦜
+  note.study:
+    displayName: 📚️
+  note.mindfullness:
+    displayName: 🧘
+  note.voicy_araki:
+    displayName: 荒木
+  note.podcast:
+    displayName: 📻️
+  note.audible:
+    displayName: 👂️
+  note.schoo:
+    displayName: 🎦
+  note.good3:
+    displayName: 3GoodThings
+  note.chochozap:
+    displayName: 🏃
+  note.weather:
+    displayName: ☀
+views:
+  - type: table
+    name: ハビットトラッカー
+    filters:
+      and:
+        - file.name.startsWith("20")
+        - or:
+            - file.folder.startsWith("10_Dairy")
+            - file.folder == "99.Inbox"
+    order:
+      - file.name
+      - date
+      - weather
+      - score
+      - flush
+      - read
+      - kindle
+      - mikan
+      - duo
+      - chochozap
+      - study
+      - mindfullness
+      - voicy_araki
+      - podcast
+      - audible
+      - schoo
+      - good3
+      - word
+    sort:
+      - property: file.name
+        direction: DESC
+    limit: 20
+    columnSize:
+      note.date: 81
+      note.weather: 64
+      note.score: 94
+      note.good3: 142
