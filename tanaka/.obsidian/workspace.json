@@ -50,7 +50,7 @@
             }
           },
           {
-            "id": "64c5244bcc7f760e",
+            "id": "b1fc788aa1eb6cb4",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -65,7 +65,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -138,12 +138,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_DairyList.base",
+                "file": "読書ページ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "_DairyListからのアウトゴーイングリンク"
+              "title": "読書ページからのアウトゴーイングリンク"
             }
           },
           {
@@ -181,13 +181,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_DairyList.base",
+                "file": "読書ページ.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "_DairyListのアウトライン"
+              "title": "読書ページのアウトライン"
             }
           },
           {
@@ -231,42 +231,43 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "f9b28644278dea69",
+  "active": "b1fc788aa1eb6cb4",
   "lastOpenFiles": [
-    "99.Inbox/20260110.md",
     "読書ページ.md",
+    "20.reading",
+    "新しいフォルダー",
+    "20.reading/坪田一男-GO OUT飛び出す人だけが成功する時代.md",
+    "20.reading_/英樹-「バカな」と「なるほど」 経営成功の決め手！.md",
+    "20.reading_/美鈴-脱ダラダラ習慣！ １日３分やめるノート.md",
+    "20.reading_/齊島聡汰-1日10分！NotebookLM勉強革命.md",
+    "20.reading_/雅子-「論理的思考」の文化的基盤　４つの思考表現スタイル.md",
+    "20.reading_/隆司-実践 ポジティブ心理学 幸せのサイエンス.md",
+    "20.reading_/長沼伸一郎-経済数学の直観的方法　マクロ経済学編.md",
+    "20.reading_/鈴木義幸-「承認」が人を動かす コーチングのプロが教える 相手を認め、行動変容をもたらす技術.md",
+    "20.reading_/鈴木祐-無（最高の状態）.md",
+    "20.reading_/越川慎司-AI分析でわかったトップ5％社員の読書術.md",
+    "20.reading_/越川慎司-AI分析でわかった トップ5％社員の習慣 トップ5%シリーズ.md",
+    "20.reading_/読書猿-独学大全公式副読本――「鈍器本」の使い方がこの１冊で全部わかる.md",
+    "20.reading_/英利-一瞬で自分を変えるセルフコーチング――最高の「気づき」を得る、自問自答の技術.md",
+    "20.reading_/華子-恵子-ロジカル・シンキング Best solution.md",
+    "20.reading_/細野豪志-政治家への道.md",
+    "20.reading_/羊一-０秒で動け　「わかってはいるけど動けない」人のための.md",
+    "20.reading_/繁智(モゲ)-キミは、「怒る」以外の方法を知らないだけなんだ.md",
+    "20.reading_/篤盛-超一流諜報員の頭の回転が速くなるダークスキル - 仕事で使える５つの極秘技術 -.md",
+    "20.reading_/真由美-Jam-まんがでわかる　一緒にいると楽しい人、疲れる人.md",
+    "20.reading_/田村達也-【知らないと損をする】レベルアップJava ～デザインパターン編～ Javaの入門を学んだあとはコレ.md",
+    "20.reading_/田中渓-億までの人　億からの人　ゴールドマン・サックス勤続１７年の投資家が明かす「兆人」のマインド.md",
+    "20.reading_/生成AIクリエイター　YUI-Books-マンガでわかる Nano Banana Pro 完全攻略ガイド 生成AI ナノバナナ 豊富な作例とプロンプトで nanobanana を使いこなす実践レシピ26選.md",
+    "20.reading_/珠美-他人を攻撃せずにはいられない人.md",
+    "20.reading_/渋沢栄一-近代経済人文庫編集部-論語と算盤 近代経済人文庫.md",
+    "20.reading_/渉-任せるコツ.md",
+    "20.reading_",
     "_DairyList.base",
-    "template/DairyTemplate.md",
-    "template/気づきメモ.md",
-    "99.Inbox/20260101.md",
-    "99.Inbox/20260109.md",
-    "99.Inbox/20260108.md",
-    "99.Inbox/20260107.md",
-    "99.Inbox/20260106.md",
-    "99.Inbox/20260103.md",
-    "99.Inbox/20260104.md",
-    "99.Inbox/20260105.md",
-    "99.Inbox/20260102.md",
-    "10_Dairy/202512/20250705_133020_book_cafe_smartphone_discussion.md",
-    "99.Inbox/Zettelkasten解説.md",
-    "99.Inbox/memo.md",
-    "podcastメモ.md",
-    "GEMINI_Qiita.md",
-    "20260103_1553_想像で語られる「令和人文主義」——あるいは、飲茶さんの「世界一わかりやすい入門」を、提唱者が7000字かけて訂正する話｜谷川嘉浩.md",
+    "_kindle_highlight.base",
     "_BookMarks_2026.base",
-    "99.Inbox/DairyTemplate 1.md",
-    "Untitled.md",
-    "Untitled 1.md",
-    "99.Inbox/無題のファイル.md",
-    "99.Inbox/無題のファイル 1.md",
-    "99.Inbox/無題のファイル 1 1.md",
     "10_Dairy/202601",
     "10_Dairy/202512",
     "10_Dairy",
-    "80_WebClip",
-    "99.Inbox/https___note.com_ogasawarahayato_n_n9c94ca090e21.txt",
-    "_gemini",
-    "新しいフォルダー",
-    "Excalidraw"
+    "80_WebClip"
   ]
 }

@@ -1,0 +1,15 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.folder == "20.reading"
+    groupBy:
+      property: created
+      direction: DESC
+    order:
+      - file.name
+      - kindle-sync
+    sort: []
+    columnSize:
+      file.name: 82
