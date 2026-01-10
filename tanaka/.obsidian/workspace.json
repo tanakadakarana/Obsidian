@@ -4,21 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "341a27fda3e61d30",
+        "id": "f807e10ddd4bdf22",
         "type": "tabs",
         "children": [
           {
-            "id": "c9d6fa1a8e9efb3d",
-            "type": "leaf",
-            "state": {
-              "type": "thino_view",
-              "state": {},
-              "icon": "Memos",
-              "title": "Thino"
-            }
-          },
-          {
-            "id": "18e5ee195dff34d7",
+            "id": "f9b28644278dea69",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -31,8 +21,19 @@
               "icon": "lucide-file",
               "title": "20260110"
             }
+          },
+          {
+            "id": "419d0d7596e7c806",
+            "type": "leaf",
+            "state": {
+              "type": "thino_view",
+              "state": {},
+              "icon": "Memos",
+              "title": "Thino"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -89,7 +90,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 289.5
+    "width": 232.5
   },
   "right": {
     "id": "45b6e198dd2dbb50",
@@ -105,11 +106,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "読書ページ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "アウトゴーイングリンク"
+              "title": "読書ページからのアウトゴーイングリンク"
             }
           },
           {
@@ -147,12 +149,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "読書ページ.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "アウトライン"
+              "title": "読書ページのアウトライン"
             }
           },
           {
@@ -166,7 +169,7 @@
             }
           },
           {
-            "id": "ebcddb8cb2a556d7",
+            "id": "6b95c2516f0c70d2",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -180,7 +183,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 319.5
+    "width": 373.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -196,10 +199,20 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "c9d6fa1a8e9efb3d",
+  "active": "419d0d7596e7c806",
   "lastOpenFiles": [
-    "99.Inbox/20260110.md",
+    "80_WebClip/20260110_1402_コードを書く前に“仕様”を書く。AI時代の新潮流「仕様駆動開発」って何？｜Tech千一夜｜ソフトウェアの作り方チャンネル.md",
     "読書ページ.md",
+    "20.reading/越川慎司-AI分析でわかったトップ5％社員の読書術.md",
+    "20.reading/教員AI研究所-教員向けNotebookLM活用アイデア20-教師のAI仕事術.md",
+    "20.reading/田中渓-億までの人　億からの人　ゴールドマン・サックス勤続１７年の投資家が明かす「兆人」のマインド.md",
+    "20.reading/孝-いつも幸せな人は、２時間の使い方の天才.md",
+    "99.Inbox/20260110.md",
+    "80_WebClip/20260110_1344_「時間が足りない」は勘違い　弁護士が明かす本当の原因とは.md",
+    "80_WebClip/20260110_1337_AIのプロンプトは「書く」な、「書かせろ」｜このみ｜生成AI × SNS講師.md",
+    "80_WebClip/20260110_1335_黄金比活用！貴重な週末を成果に変える方法.md",
+    "80_WebClip/20260110_1325_新卒エンジニアよ。コードは書かなくていいかもしれない。でも理解だけはやめないでほしい.md",
+    "80_WebClip/20260110_1307_「Googleでの14年間で学んだ21の教訓」を 個人的な解釈でまとめてみた.md",
     "80_WebClip/20260110_1217_高いパフォーマンスを維持するための「5つの健康習慣」｜Yoshikazu TATENO.md",
     "80_WebClip/20260110_1206_印南敦史の「毎日書評2025」年間ランキングTOP20｜「人生の手綱」を握り直す10冊.md",
     "99.Inbox/20260103.md",
@@ -214,19 +227,9 @@
     "80_WebClip/20260103_1610_セキュリティエンジニアにおすすめの本 1選.md",
     "80_WebClip/20260103_1554_想像で語られる「令和人文主義」——あるいは、飲茶さんの「世界一わかりやすい入門」を、提唱者が7000字かけて訂正する話｜谷川嘉浩.md",
     "20260103_1553_想像で語られる「令和人文主義」——あるいは、飲茶さんの「世界一わかりやすい入門」を、提唱者が7000字かけて訂正する話｜谷川嘉浩.md",
-    "Untitled 2.md",
-    "80_WebClip/20260103_1542_【仕事を効率化】Geminiの活用事例35選を紹介！コツや注意点も解説｜SHIFT AI TIMES.md",
-    "Untitled 1.md",
-    "Untitled.md",
-    "80_WebClip/20260103_1523_論文試験のススメ：ネスペや支援士を合格されたあなたへ｜左門至峰.md",
     "10_Dairy/202601",
-    "99.Inbox/20260102.md",
-    "99.Inbox/20260101.md",
-    "10_Dairy/202512/20250705_133020_book_cafe_smartphone_discussion.md",
     "10_Dairy/202512",
     "10_Dairy",
-    "80_WebClip/20260103_1518_スマホだけで開発完結！Claudeアプリで年越しアプリを作った話.md",
-    "80_WebClip/20260103_1500_今から始めるObsidian入門 2025.md",
     "80_WebClip",
     "99.Inbox/https___note.com_ogasawarahayato_n_n9c94ca090e21.txt",
     "_gemini",
