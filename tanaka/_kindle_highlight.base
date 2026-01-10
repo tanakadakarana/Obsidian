@@ -10,6 +10,19 @@ views:
     order:
       - file.name
       - kindle-sync
+      - image
     sort: []
     columnSize:
       file.name: 82
+  - type: cards
+    name: Card
+    filters:
+      and:
+        - file.folder == "20.reading"
+    sort:
+      - property: author
+        direction: ASC
+    image: note.image
+    imageFit: contain
+    imageAspectRatio: 0.5
+    cardSize: 200

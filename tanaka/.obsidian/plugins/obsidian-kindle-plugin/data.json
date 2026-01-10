@@ -5,6 +5,6 @@
   "isLoggedIn": true,
   "syncOnBoot": false,
   "downloadBookMetadata": true,
-  "lastSyncDate": "2026-01-10T07:35:34.245Z",
-  "fileTemplate": "---\ntags: kindle\ntitle: {{title}}\nauthor: {{author}}\nimage: {% if imageUrl %}![|300]({{ imageUrl | replace(\"._SY160\", \"\") }}){% endif %}\n{% if asin %}asin: {{asin}}{% endif %}\n{% if isbn %}isbn: {{isbn}}{% endif %}\n---\n\n# {{title}}\n## Metadata\n{% trim %}\n{% if authorUrl %}\n* Author: [{{author}}]({{authorUrl}})\n{% elif author %}\n* Author: [[{{author}}]]\n{% endif %}\n{% if asin %}* ASIN: {{asin}}{% endif %}\n{% if isbn %}* ISBN: {{isbn}}{% endif %}\n{% if pages %}* Pages: {{pages}}{% endif %}\n{% if publication %}* Publication: {{publication}}{% endif %}\n{% if publisher %}* Publisher: {{publisher}}{% endif %}\n{% if url %}* Reference: {{url}}{% endif %}\n{% if appLink %}* [Kindle link]({{appLink}}){% endif %}\n{% endtrim %}\n\n## Highlights\n{{highlights}}\n"
+  "lastSyncDate": "2026-01-10T08:43:31.739Z",
+  "fileTemplate": "---\ntags: kindle\ntitle: {{title}}\nauthor: {{author}}\nimage: {{ imageUrl}}\nasin: {{asin}}\nisbn: {{isbn}}\n---\n\n# {{title}}\n## Metadata\n{% trim %}\n{% if authorUrl %}\n* Author: [{{author}}]({{authorUrl}})\n{% elif author %}\n* Author: [[{{author}}]]\n{% endif %}\n{% if asin %}* ASIN: {{asin}}{% endif %}\n{% if isbn %}* ISBN: {{isbn}}{% endif %}\n{% if pages %}* Pages: {{pages}}{% endif %}\n{% if publication %}* Publication: {{publication}}{% endif %}\n{% if publisher %}* Publisher: {{publisher}}{% endif %}\n{% if url %}* Reference: {{url}}{% endif %}\n{% if appLink %}* [Kindle link]({{appLink}}){% endif %}\n{% endtrim %}\n\n## Highlights\n{{highlights}}\n"
 }
