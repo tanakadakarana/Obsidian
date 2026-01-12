@@ -1,12 +1,9 @@
 ---
 tags:
   - diary
-publish: "false"
-date: "{{date}}"
-score: ★★★★★☆☆☆☆☆
-good3:
-word:
-weather:
+publish: false
+modified: 2026-01-10T16:15:02+09:00
+date: "{{date:YYYYMMDD}}"
 flush: false
 read: false
 kindle: false
@@ -19,7 +16,10 @@ voicy_araki: false
 podcast: false
 audible: false
 schoo: false
-modified: 2026-01-10T16:15:02+09:00
+score: ★★★★★☆☆☆☆☆
+weather:
+word:
+good3:
 ---
 
 ## ★3GoodThings★

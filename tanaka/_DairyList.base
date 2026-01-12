@@ -14,7 +14,7 @@ properties:
   note.duo:
     displayName: 🦜
   note.study:
-    displayName: 📚️
+    displayName: ✏
   note.mindfullness:
     displayName: 🧘
   note.voicy_araki:
@@ -64,7 +64,7 @@ views:
         direction: DESC
     limit: 20
     columnSize:
-      note.date: 81
-      note.weather: 64
-      note.score: 94
+      note.date: 90
+      note.weather: 76
+      note.score: 106
       note.good3: 142

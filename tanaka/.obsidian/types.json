@@ -14,6 +14,7 @@
     "audible": "checkbox",
     "flush": "checkbox",
     "schoo": "checkbox",
-    "chochozap": "checkbox"
+    "chochozap": "checkbox",
+    "publish": "checkbox"
   }
 }
