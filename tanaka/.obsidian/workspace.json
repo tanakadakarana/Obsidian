@@ -40,17 +40,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "99.Inbox/20260112.md",
+                "file": "11_evoltech/202601/01_L-MTG報告.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "20260112"
+              "title": "01_L-MTG報告"
+            }
+          },
+          {
+            "id": "44c5078f8094032e",
+            "type": "leaf",
+            "state": {
+              "type": "bases",
+              "state": {
+                "file": "_DairyList.base",
+                "viewName": "ハビットトラッカー"
+              },
+              "icon": "lucide-table",
+              "title": "_DairyList"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -200,7 +213,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 276.5
+    "width": 228.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -216,15 +229,28 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "419d0d7596e7c806",
+  "active": "44c5078f8094032e",
   "lastOpenFiles": [
+    "_kindle_highlight.base",
+    "11_evoltech/202601/01_L-MTG報告.md",
+    "11_evoltech/202601/00_顧客状況.md",
+    "読書ページ.md",
+    "11_evoltech/1on1_202601/099_大河原L（自分）.md",
+    "11_evoltech/1on1_202601/007_遠山さん.md",
+    "11_evoltech/1on1_202601/006_イエンさん.md",
+    "11_evoltech/1on1_202601/004_槻さん.md",
+    "11_evoltech/1on1_202601/005_浮田さん.md",
     "99.Inbox/20260112.md",
+    "11_evoltech/1on1_202601/003_生田さん.md",
+    "11_evoltech/1on1_202601/002_石井さん.md",
+    "11_evoltech/1on1_202601/001_水谷さん.md",
+    "11_evoltech/1on1_202601",
+    "11_evoltech/202601",
+    "11_evoltech",
     "template/DairyTemplate.md",
     "_DairyList.base",
-    "読書ページ.md",
     "99.Inbox/20260110.md",
     "99.Inbox/20260111.md",
-    "_kindle_highlight.base",
     "20.reading/(Yuihondo)-2週間で合格！AWS認定資格 AIプラクティショナー 【AIF-01 対応】).md",
     "20.reading/chatgptプロンプトエンジニア ユリ_et_al-ChatGPT4-o究極実践術.md",
     "20.reading/(Yuihondo)-AWS認定資格 AIプラクティショナー 実践問題集Vol.1【ALF-C01 対応】).md",
@@ -235,23 +261,10 @@
     "20.reading/信弘-キミが信頼されないのは話が「ズレてる」だけなんだ-1768034316870.md",
     "20.reading/信弘-キミが信頼されないのは話が「ズレてる」だけなんだ.md",
     "20.reading/懲役太郎-草下シンヤ-常識として知っておきたい裏社会.md",
-    "20.reading/政人-資格試験に一発合格する人は、「これ」しかやらない 忙しい社会人のための「割り切る勉強法」-1768034306945.md",
-    "20.reading/政人-資格試験に一発合格する人は、「これ」しかやらない 忙しい社会人のための「割り切る勉強法」.md",
-    "20.reading/千絵-職場の嫌な人から自分を守る言葉の護身術　ムダに「反応しない」。ムダに「争わない」。.md",
-    "20.reading/井上裕之-一流の人間力.md",
-    "20.reading/スコット・アラン-弓場隆-GREAT LIFE 一度しかない人生を最高の人生にする方法-1768034280802.md",
-    "20.reading/スコット・アラン-弓場隆-GREAT LIFE 一度しかない人生を最高の人生にする方法.md",
-    "20.reading/マルクス・アウレリウス-佐藤けんいち-超訳 自省録 よりよく生きる エッセンシャル版 ディスカヴァークラシック文庫シリーズ-1768034273694.md",
-    "20.reading/マルクス・アウレリウス-佐藤けんいち-超訳 自省録 よりよく生きる エッセンシャル版 ディスカヴァークラシック文庫シリーズ.md",
-    "20.reading/クレイグ・ライト-篤花-イェール大学人気講義 天才 ～その「隠れた習慣」を解き明かす-1768034258805.md",
-    "20.reading/クレイグ・ライト-篤花-イェール大学人気講義 天才 ～その「隠れた習慣」を解き明かす.md",
     "20.reading",
     "新しいフォルダー",
     "20.reading_",
     "_BookMarks_2026.base",
-    "10_Dairy/202601",
-    "10_Dairy/202512",
-    "10_Dairy",
-    "80_WebClip"
+    "10_Dairy/202601"
   ]
 }
