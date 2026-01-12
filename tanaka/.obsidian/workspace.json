@@ -50,20 +50,22 @@
             }
           },
           {
-            "id": "44c5078f8094032e",
+            "id": "700cc7c459b7b706",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "_DairyList.base",
-                "viewName": "ハビットトラッカー"
+                "file": "99.Inbox/20260107.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-table",
-              "title": "_DairyList"
+              "icon": "lucide-file",
+              "title": "20260107"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -120,7 +122,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 232.5
+    "width": 200
   },
   "right": {
     "id": "45b6e198dd2dbb50",
@@ -199,7 +201,7 @@
             }
           },
           {
-            "id": "6b95c2516f0c70d2",
+            "id": "ce066cf5ec2477c9",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -213,7 +215,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 228.5
+    "width": 208.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -229,12 +231,28 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "44c5078f8094032e",
+  "active": "419d0d7596e7c806",
   "lastOpenFiles": [
+    "_DairyList.base",
+    "99.Inbox/20260107.md",
+    "99.Inbox/20260104.md",
+    "99.Inbox/20260106.md",
+    "99.Inbox/20260105.md",
+    "読書ページ.md",
+    "_BookMarks_2026.base",
+    "80_WebClip/20260112_1625_心理学者が提案する、2026年に実践したい3つの関係性を深める習慣  Forbes JAPAN 公式サイト（フォーブス ジャパン）.md",
+    "80_WebClip/20260112_1623_Claude Codeとの会話を自動でObsidianに記録する仕組みを作った.md",
+    "80_WebClip/20260112_1620_カフェ作業で重宝するガジェット・アイテム｜AmazonスマイルSALE対象をピックアップ｜murasaki.md",
+    "80_WebClip/20260112_1619_ObsidianでPDFを利用する−プラグイン「PDF++」−.md",
+    "80_WebClip/20260112_1618_Obsidian第三歩（今回は、仕事、研究的に使える環境を整える）.md",
+    "80_WebClip/20260112_1616_Obsidianにて，PC（Mac）とAndroidスマホの同期ができた.md",
+    "80_WebClip/20260112_1617_Obsidian第二歩（まずは、Cosenseの操作感をObsidianに再現する）.md",
+    "80_WebClip/20260103_1500_今から始めるObsidian入門 2025.md",
+    "80_WebClip/20260103_1518_スマホだけで開発完結！Claudeアプリで年越しアプリを作った話.md",
+    "80_WebClip/20260112_1612_今年こそ叶える！目標達成のコツを学んでみた！＜学びカフェ日誌＞｜フリパラ（フリーランス協会公式note）.md",
     "_kindle_highlight.base",
     "11_evoltech/202601/01_L-MTG報告.md",
     "11_evoltech/202601/00_顧客状況.md",
-    "読書ページ.md",
     "11_evoltech/1on1_202601/099_大河原L（自分）.md",
     "11_evoltech/1on1_202601/007_遠山さん.md",
     "11_evoltech/1on1_202601/006_イエンさん.md",
@@ -243,28 +261,12 @@
     "99.Inbox/20260112.md",
     "11_evoltech/1on1_202601/003_生田さん.md",
     "11_evoltech/1on1_202601/002_石井さん.md",
-    "11_evoltech/1on1_202601/001_水谷さん.md",
     "11_evoltech/1on1_202601",
     "11_evoltech/202601",
     "11_evoltech",
-    "template/DairyTemplate.md",
-    "_DairyList.base",
-    "99.Inbox/20260110.md",
-    "99.Inbox/20260111.md",
-    "20.reading/(Yuihondo)-2週間で合格！AWS認定資格 AIプラクティショナー 【AIF-01 対応】).md",
-    "20.reading/chatgptプロンプトエンジニア ユリ_et_al-ChatGPT4-o究極実践術.md",
-    "20.reading/(Yuihondo)-AWS認定資格 AIプラクティショナー 実践問題集Vol.1【ALF-C01 対応】).md",
-    "20.reading/(Yuihondo)-AWS認定 ソリューションアーキテクト アソシエイト 実践問題集【SAA-C03対応】).md",
-    "20.reading/(Yuihondo)-2週間で合格！AWS認定資格 ソリューションアーキテクト アソシエイト【SAA-C03 対応】).md",
-    "20.reading/俊孝-何歳からでも結果が出る 本当の勉強法-1768034324783.md",
-    "20.reading/俊孝-何歳からでも結果が出る 本当の勉強法.md",
-    "20.reading/信弘-キミが信頼されないのは話が「ズレてる」だけなんだ-1768034316870.md",
-    "20.reading/信弘-キミが信頼されないのは話が「ズレてる」だけなんだ.md",
-    "20.reading/懲役太郎-草下シンヤ-常識として知っておきたい裏社会.md",
     "20.reading",
     "新しいフォルダー",
     "20.reading_",
-    "_BookMarks_2026.base",
     "10_Dairy/202601"
   ]
 }

@@ -1,0 +1,251 @@
+---
+title: "Claude Codeとの会話を自動でObsidianに記録する仕組みを作った"
+source: "https://zenn.dev/pepabo/articles/ffb79b5279f6ee"
+author:
+  - "[[Zenn]]"
+published: 2026-01-10
+created: 2026-01-12
+description:
+tags:
+  - "clippings"
+image: "https://res.cloudinary.com/zenn/image/upload/s--yVZnhs0z--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%25E3%2581%25A8%25E3%2581%25AE%25E4%25BC%259A%25E8%25A9%25B1%25E3%2582%2592%25E8%2587%25AA%25E5%258B%2595%25E3%2581%25A7Obsidian%25E3%2581%25AB%25E8%25A8%2598%25E9%258C%25B2%25E3%2581%2599%25E3%2582%258B%25E4%25BB%2595%25E7%25B5%2584%25E3%2581%25BF%25E3%2582%2592%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_34:%25E6%25A0%2597%25E6%259E%2597%25E5%2581%25A5%25E5%25A4%25AA%25E9%2583%258E%2Cx_220%2Cy_108/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyLzA0ZTQxODhhYTMuanBlZw==%2Cr_20%2Cw_90%2Cx_92%2Cy_102/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:GMO%25E3%2583%259A%25E3%2583%2591%25E3%2583%259C%25E6%25A0%25AA%25E5%25BC%258F%25E4%25BC%259A%25E7%25A4%25BE%2Cx_220%2Cy_160/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2YyNWQ2NTRkY2EuanBlZw==%2Cr_max%2Cw_50%2Cx_139%2Cy_84/v1627283836/default/og-base-w1200-v2.png?_a=BACAGSGT"
+---
+[GMOペパボ株式会社](https://zenn.dev/p/pepabo) [Publicationへの投稿](https://zenn.dev/faq#what-is-publication)
+
+133
+
+78[tech](https://zenn.dev/tech-or-idea)
+
+## はじめに
+
+Claude Code（Anthropic公式のCLIツール）を使って日々の作業をしていると、有益な会話がセッション終了とともに消えてしまうのがもったいないと感じていました。
+
+そこで、Claude Codeとの会話を自動的にObsidianに記録する仕組みを作りました。本記事ではその実装方法を紹介します。
+
+## やりたいこと
+
+- Claude Codeでの会話を自動的にMarkdownファイルとして保存
+- Obsidianで管理しているナレッジベースに統合
+- 手動操作なしで、会話のたびにリアルタイム同期
+- ノイズ（システムメッセージなど）を除去してクリーンな記録を残す
+
+## 仕組みの概要
+
+```
+Claude Code セッション
+    ↓ (jsonlファイルに記録)
+~/.claude/projects/*/session.jsonl
+    ↓ (5秒ごとに監視)
+watch-and-save.sh (LaunchAgentで常駐)
+    ↓ (変更検知時に抽出・整形)
+~/obsidian/claude/YYYY年M月D日.md
+    ↓ (自動git commit)
+GitHub同期
+```
+
+## 実装
+
+### 1\. 監視スクリプトの作成
+
+`~/.claude/hooks/watch-and-save.sh`:
+
+```bash
+#!/bin/bash
+# Watch Claude Code session and sync to Obsidian in real-time (append mode)
+
+OBSIDIAN_DIR="$HOME/src/github.com/kentaro/obsidian/claude"
+SESSION_DIR="$HOME/.claude/projects/-Users-antipop-tmp-claude"  # 監視するプロジェクトディレクトリ
+LAST_LINE_FILE="$HOME/.claude/last-synced-line"
+
+mkdir -p "$OBSIDIAN_DIR"
+
+sync_session() {
+    local session_file="$1"
+    local TODAY=$(date +%Y年%-m月%-d日)
+    local TODAY_START_UTC=$(TZ=UTC date -v-9H -j -f "%Y-%m-%d %H:%M:%S" "$(date +%Y-%m-%d) 00:00:00" +%Y-%m-%dT%H:%M:%S 2>/dev/null)
+    local OUTPUT_FILE="${OBSIDIAN_DIR}/${TODAY}.md"
+
+    # Create file with header if it doesn't exist
+    if [ ! -f "$OUTPUT_FILE" ]; then
+        echo "# ${TODAY} Claudeとの会話" > "$OUTPUT_FILE"
+        echo "" >> "$OUTPUT_FILE"
+    fi
+
+    # Get last synced line number
+    local last_line=0
+    if [ -f "$LAST_LINE_FILE" ]; then
+        last_line=$(cat "$LAST_LINE_FILE" 2>/dev/null || echo 0)
+    fi
+
+    # Count current lines in session file
+    local current_lines=$(wc -l < "$session_file" | tr -d ' ')
+
+    # Only process new lines (append mode - no overwriting)
+    if [ "$current_lines" -gt "$last_line" ]; then
+        local new_content=$(tail -n +$((last_line + 1)) "$session_file" | jq -r --arg today_start "$TODAY_START_UTC" '
+        select(.type == "user" or .type == "assistant") |
+        select((.timestamp // "9999") >= $today_start) |
+        if .type == "user" then
+            (.message.content // .content // "") as $content |
+            if ($content | type) == "string" then
+                if ($content | test("<local-command|<command-name>|<system-reminder>|<task-notification>"; "i")) then
+                    empty
+                else
+                    "**ユーザー**: " + $content
+                end
+            else
+                empty
+            end
+        elif .type == "assistant" then
+            if (.message.content | type) == "array" then
+                (.message.content[] | select(.type == "text") |
+                    if (.text | test("^No response requested"; "i")) then
+                        empty
+                    else
+                        "**Claude**: " + .text
+                    end
+                )
+            else
+                empty
+            end
+        else
+            empty
+        end
+        ' 2>/dev/null)
+
+        # Append new content if any
+        if [ -n "$new_content" ]; then
+            echo "$new_content" >> "$OUTPUT_FILE"
+            echo "" >> "$OUTPUT_FILE"
+
+            # Git commit (silent)
+            cd "$OBSIDIAN_DIR" && git add "$OUTPUT_FILE" && \
+                git commit -m "Claude: ${TODAY} (auto)" 2>/dev/null || true
+        fi
+
+        # Update last synced line
+        echo "$current_lines" > "$LAST_LINE_FILE"
+    fi
+}
+
+# Find most recent active session (exclude subagents)
+find_session() {
+    find "$SESSION_DIR" -path "*/subagents/*" -prune -o \
+        -name "*.jsonl" -type f -mmin -60 -size +1000c -print \
+        2>/dev/null | xargs ls -t 2>/dev/null | head -1
+}
+
+echo "Watching for Claude session changes (append mode)..."
+
+while true; do
+    SESSION=$(find_session)
+    if [ -n "$SESSION" ]; then
+        sync_session "$SESSION"
+    fi
+    sleep 5
+done
+```
+
+### 2\. LaunchAgentで常駐化
+
+`~/Library/LaunchAgents/com.claude.obsidian-sync.plist`:
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+    "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.claude.obsidian-sync</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>/bin/bash</string>
+        <string>~/.claude/hooks/watch-and-save.sh</string>
+    </array>
+    <key>RunAtLoad</key>
+    <true/>
+    <key>KeepAlive</key>
+    <true/>
+    <key>StandardOutPath</key>
+    <string>~/.claude/logs/obsidian-sync.log</string>
+    <key>StandardErrorPath</key>
+    <string>~/.claude/logs/obsidian-sync-error.log</string>
+</dict>
+</plist>
+```
+
+### 3\. LaunchAgentの有効化
+
+```bash
+# ログディレクトリ作成
+mkdir -p ~/.claude/logs
+
+# LaunchAgentを読み込み
+launchctl load ~/Library/LaunchAgents/com.claude.obsidian-sync.plist
+
+# 動作確認
+launchctl list | grep claude
+```
+
+### 4\. chezmoiで管理（オプション）
+
+複数のMacで同じ設定を使う場合は、chezmoiでdotfiles管理すると便利です。
+
+```bash
+chezmoi add ~/.claude/hooks/watch-and-save.sh
+chezmoi add ~/.claude/settings.json
+# LaunchAgentはテンプレート化して追加
+```
+
+## 出力例
+
+`2026年1月9日.md`:
+
+```markdown
+ユーザー
+```
+
+## ポイント
+
+### セッションファイルの場所
+
+Claude Codeは会話履歴を `~/.claude/projects/{project-hash}/{session-id}.jsonl` に保存しています。このjsonlファイルをパースすることで、会話内容を抽出できます。
+
+### ノイズの除去
+
+Claude Codeの内部メッセージ（ `<system-reminder>` など）や、ローカルコマンドの出力（ `<local-command-...>` ）は記録から除外しています。
+
+### 追記モード
+
+上書きではなく追記モードを採用しています。セッションファイルの新しい行だけを処理し、既存のObsidianファイルに追記します。これにより：
+
+- 他のプロセス（カメラ監視など）との競合を防止
+- セッション途中でクラッシュしても記録が失われない
+- 5秒ごとに新しい会話だけを追記
+
+### 日付ベースのフィルタリング
+
+セッションファイルには日をまたいだ会話も含まれるため、各エントリのタイムスタンプを確認し、その日の会話だけを抽出しています。これにより、 `2026年1月9日.md` には1月9日の会話のみ、 `2026年1月10日.md` には1月10日の会話のみが記録されます。
+
+## 今後の展望
+
+- トピックごとの自動分類
+- 要約の自動生成
+- スマホのClaudeアプリからの会話もGitHub API経由で統合
+
+## まとめ
+
+Claude Codeとの会話を自動的にObsidianに記録する仕組みを作りました。これにより：
+
+- 過去の会話をいつでも検索・参照できる
+- 学んだことがナレッジベースに蓄積される
+- 手動操作なしで自動的に記録される
+
+Claude Codeを日常的に使っている方は、ぜひ試してみてください。
+
+[GitHubで編集を提案](https://github.com/kentaro/zenn-articles/blob/main/articles/ffb79b5279f6ee.md)
+
+133
+
+78

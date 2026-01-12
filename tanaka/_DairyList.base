@@ -45,6 +45,8 @@ views:
       - date
       - weather
       - score
+      - word
+      - good3
       - flush
       - read
       - kindle
@@ -57,14 +59,14 @@ views:
       - podcast
       - audible
       - schoo
-      - good3
-      - word
     sort:
       - property: file.name
         direction: DESC
     limit: 20
     columnSize:
-      note.date: 90
+      file.name: 83
+      note.date: 10
       note.weather: 76
       note.score: 106
-      note.good3: 142
+      note.word: 245
+      note.good3: 264
