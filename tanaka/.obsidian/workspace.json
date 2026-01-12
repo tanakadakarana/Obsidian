@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "template/DairyTemplate.md",
+                "file": "99.Inbox/20260112.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "DairyTemplate"
+              "title": "20260112"
             }
           },
           {
@@ -64,8 +64,7 @@
               "title": "20260110"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -231,18 +230,18 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "382efd3e51dde56c",
+  "active": "1c0718afa23d1289",
   "lastOpenFiles": [
+    "template/DairyTemplate.md",
+    "99.Inbox/20260110.md",
     "読書ページ.md",
     "_DairyList.base",
     "_kindle_highlight.base",
-    "template/DairyTemplate.md",
     "20.reading/(Yuihondo)-2週間で合格！AWS認定資格 AIプラクティショナー 【AIF-01 対応】).md",
     "20.reading/chatgptプロンプトエンジニア ユリ_et_al-ChatGPT4-o究極実践術.md",
     "20.reading/(Yuihondo)-AWS認定資格 AIプラクティショナー 実践問題集Vol.1【ALF-C01 対応】).md",
     "20.reading/(Yuihondo)-AWS認定 ソリューションアーキテクト アソシエイト 実践問題集【SAA-C03対応】).md",
     "20.reading/(Yuihondo)-2週間で合格！AWS認定資格 ソリューションアーキテクト アソシエイト【SAA-C03 対応】).md",
-    "99.Inbox/20260110.md",
     "20.reading/俊孝-何歳からでも結果が出る 本当の勉強法-1768034324783.md",
     "20.reading/俊孝-何歳からでも結果が出る 本当の勉強法.md",
     "20.reading/信弘-キミが信頼されないのは話が「ズレてる」だけなんだ-1768034316870.md",

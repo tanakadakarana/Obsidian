@@ -10,7 +10,7 @@ views:
         direction: DESC
     image: note.image
     imageFit: contain
-    imageAspectRatio: 0.35
-    cardSize: 200
+    imageAspectRatio: 0.25
+    cardSize: 300
   - type: table
     name: Table
