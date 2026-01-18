@@ -70,3 +70,5 @@ views:
       note.score: 106
       note.word: 245
       note.good3: 232
+  - type: table
+    name: View

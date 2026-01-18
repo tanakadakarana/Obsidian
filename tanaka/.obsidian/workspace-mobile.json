@@ -40,28 +40,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "99.Inbox/20260112.md",
+                "file": "99.Inbox/20260117.md",
                 "mode": "source",
-                "source": false,
+                "source": true,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "20260112"
+              "title": "20260117"
             }
           },
           {
-            "id": "d6480a46209567fa",
+            "id": "1d5cae95b8699ac3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "99.Inbox/20260111.md",
+                "file": "99.Inbox/20260118.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "20260111"
+              "title": "20260118"
             }
           }
         ],
@@ -169,7 +169,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "99.Inbox/20260111.md",
+            "file": "99.Inbox/20260117.md",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -196,12 +196,20 @@
   },
   "active": "9a8d0d7368f6e921",
   "lastOpenFiles": [
-    "99.Inbox/20260111.md",
+    "99.Inbox/20260118.md",
+    "99.Inbox/20260117.md",
+    "99.Inbox/20260116.md",
     "99.Inbox/20260110.md",
-    "99.Inbox/20260112.md",
+    "99.Inbox/20260115.md",
+    "99.Inbox/20260114.md",
     "_DairyList.base",
-    "_BookMarks_2026.base",
+    "99.Inbox/20260113.md",
+    "template/DairyTemplate.md",
     "99.Inbox/無題のファイル.md",
+    "99.Inbox/20260112.md",
+    "template/気づきメモ.md",
+    "99.Inbox/20260111.md",
+    "_BookMarks_2026.base",
     "20.reading/無題のファイル.md",
     "99.Inbox/Zettelkasten解説.md",
     "99.Inbox/20260109.md",
@@ -217,16 +225,8 @@
     "10_podcast",
     "Untitled 2.md",
     "Untitled.md",
-    "20260103_1553_想像で語られる「令和人文主義」——あるいは、飲茶さんの「世界一わかりやすい入門」を、提唱者が7000字かけて訂正する話｜谷川嘉浩.md",
-    "00_案件別/想定QA.md",
-    "00_案件別/仕様書.md",
-    "00_案件別/案件概要.md",
     "00_案件別",
     "00_study",
-    "10_Dairy/202512/20251224.md",
-    "10_Dairy/202512/20251230.md",
-    "10_Dairy/202512/20251220.md",
-    "10_Dairy/202512/20251231.md",
     "10_Dairy/202601",
     "10_Dairy/202512",
     "10_Dairy",

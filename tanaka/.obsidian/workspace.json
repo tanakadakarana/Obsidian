@@ -40,13 +40,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "99.Inbox/20260112.md",
+                "file": "99.Inbox/20260118.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "20260112"
+              "title": "20260118"
             }
           }
         ],
@@ -218,6 +218,7 @@
   },
   "active": "700cc7c459b7b706",
   "lastOpenFiles": [
+    "99.Inbox/20260112.md",
     "99.Inbox/20260111.md",
     "読書ページ.md",
     "podcastメモ.md",
@@ -225,7 +226,6 @@
     "_kindle_highlight.base",
     "_DairyList.base",
     "_BookMarks_2026.base",
-    "99.Inbox/20260112.md",
     "80_WebClip/20260112_2205_GeminiとNotebookLMの連携でできることとは？統合AIワークフローの全貌と使い方ガイド.md",
     "99.Inbox/20260112(1).md",
     "template/DairyTemplate.md",
