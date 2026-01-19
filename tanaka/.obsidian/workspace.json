@@ -33,38 +33,9 @@
               "icon": "Memos",
               "title": "Thino"
             }
-          },
-          {
-            "id": "521d89a294dacec6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "11_evoltech/202601/01_L-MTG報告.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "01_L-MTG報告"
-            }
-          },
-          {
-            "id": "35debad9c0784f9c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "80_WebClip/20260119_0130_それ,コーチングじゃなくて激詰めです｜すぅ  AI駆動PM.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "20260119_0130_それ,コーチングじゃなくて激詰めです｜すぅ  AI駆動PM"
-            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -230,34 +201,35 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "f9b28644278dea69",
+  "active": "ce066cf5ec2477c9",
   "lastOpenFiles": [
-    "11_evoltech/202601/01_L-MTG報告.md",
-    "11_evoltech/202601/00_顧客状況.md",
-    "99.Inbox/20260119.md",
-    "80_WebClip/20260119_0037_AWSコスト最適化完全入門：初心者でもできる5つのステップ.md",
-    "80_WebClip/20260119_0130_それ,コーチングじゃなくて激詰めです｜すぅ  AI駆動PM.md",
-    "_DairyList.base",
-    "11_evoltech/202601/01_L-MTG報告(1).md",
     "読書ページ.md",
-    "11_evoltech/202601/01_L-MTG報告(4).md",
-    "99.Inbox/20260116.md",
-    "11_evoltech/1on1_202601/001_水谷さん(1).md",
-    "80_WebClip/20260119_0036_バイブコーディング初心者のための Skills(スキル)入門｜伊藤貴將（いとうたかまさ、イトパン）｜安曇むすひ.md",
-    "80_WebClip/20260119_0036_2時間かけて作った「賢そうな自動化」を、無意味だと気づいて1週間で消した話.md",
-    "80_WebClip/20260119_0035_ポケモンで学ぶオブジェクト指向〜SOLID原則編〜.md",
-    "99.Inbox/20260118.md",
-    "99.Inbox/20260117.md",
-    "99.Inbox/20260101.md",
-    "11_evoltech/1on1_202601/099_大河原L（自分）.md",
-    "99.Inbox/無題のファイル.md",
-    "11_evoltech/1on1_202601/007_遠山さん.md",
-    "11_evoltech/1on1_202601/006_イエンさん.md",
-    "11_evoltech/1on1_202601/005_浮田さん.md",
-    "11_evoltech/1on1_202601/004_槻さん.md",
-    "11_evoltech/1on1_202601/003_生田さん.md",
-    "11_evoltech/1on1_202601/002_石井さん.md",
-    "11_evoltech/1on1_202601/001_水谷さん.md",
+    "80_WebClip/20260119_2236_高校までの数学と数学科で学ぶ数学の違い.md",
+    "80_WebClip/20260119_2235_高校までの数学と数学科で学ぶ数学の違い.md",
+    "80_WebClip/20260119_2233_Excelを使う上で覚えておきたいこと｜ニュース｜ブログ｜株式会社スタイラジー - テクノロジーで世の中を便利に.md",
+    "80_WebClip/20260119_2233_個人開発。AIと一緒にアプリを作ったら、普通にストア公開できた話.md",
+    "80_WebClip/20260119_2232_【設計初心者メモ】SOLIDとは？.md",
+    "80_WebClip/20260119_2229_Obsidianのノートのつながりを見つけるAtomic Insightsというプラグインを作りました.md",
+    "11_evoltech/202601/01_L-MTG報告.md",
+    "80_WebClip/20260119_2229_毎日の手帳タイムを豊かにする、私の愛用品｜mayu.md",
+    "80_WebClip/20260119_2228_Obsidianのウィジェットの設定方法｜小田やかた 📍好きなことを書き続けるKindle作家.md",
+    "80_WebClip/20260119_2227_Skills が増えすぎて管理に困ったら Obsidian で一覧化しよう｜松濤Vimmer.md",
+    "_DairyList.base",
+    "80_WebClip/20260119_2227_Google Antigravityを使ってChrome拡張「Chrome Multi-Highlighter」を作りました.md",
+    "80_WebClip/20260119_2226_ChatGPTに「無理のない1週間」を作ってもらったら気持ちが楽になった.md",
+    "80_WebClip/20260119_2226_スマホでコードを書くという選択肢.md",
+    "80_WebClip/20260119_2225_あなたの「AI活用レベル」はいくつ？3段階で整理する。｜イケハヤ.md",
+    "80_WebClip/20260119_2225_Google Antigravityとは？使い方や料金をご紹介.md",
+    "80_WebClip/20260119_2224_Google Antigravityとは？使い方や料金をご紹介.md",
+    "80_WebClip/20260119_2224_嫌な仕事を「始められない」脳回路を解明.md",
+    "80_WebClip/20260119_2223_APIって何？と聞かれた時に答える内容.md",
+    "80_WebClip/20260119_2222_何千回も使ってわかった！　壁打ちで「思考の精度」を高める3つの問いかけ.md",
+    "80_WebClip/20260119_2222_1日たった4分の若返りトレーニング 50代から始めたい、「ゆるHIIT」  暮らしをお得に、もっと楽しく  ウェブマガジン  クラス エル - レオパレス21のオーナー様向け会員組織.md",
+    "80_WebClip/20260119_2221_脳をハックして習慣化。あえて「価値のない報酬」を自分に与えるのが正解でした.md",
+    "80_WebClip/20260119_2221_「そもそも生成AIでやるべきでない問い」に、企業が挑んでしまう問題｜深津 貴之 (fladdict).md",
+    "80_WebClip/20260119_2220_【配布】Discord bot構築サポートプロンプト.md",
+    "80_WebClip/20260119_2219_【神アプデ】もうAIの「嘘」に悩まない。Gemini×NotebookLMで実現する、ファクトチェック不要のコンテンツ作成術｜いのたかオフィス｜いのたか（井上貴之）＠MyASPマニア＆研究家.md",
+    "80_WebClip/20260119_2219_ほぼ日weeksに書く、読書記録｜きりん.md",
     "_kindle_highlight.base",
     "_BookMarks_2026.base",
     "11_evoltech/1on1_202601",
