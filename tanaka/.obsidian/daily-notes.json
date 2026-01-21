@@ -1,6 +1,5 @@
 {
   "format": "YYYYMMDD",
   "folder": "99.Inbox",
-  "autorun": true,
   "template": "template/DairyTemplate"
 }

@@ -4,5 +4,6 @@
   "attachmentFolderPath": "99.Inbox",
   "promptDelete": false,
   "showLineNumber": true,
-  "readableLineLength": false
+  "readableLineLength": false,
+  "openBehavior": "daily"
 }
