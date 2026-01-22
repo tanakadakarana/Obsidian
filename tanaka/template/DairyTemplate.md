@@ -31,7 +31,11 @@ grat_count: 0
 io_ratio: 0
 shuhari: 守
 ---
-
+### BEAT
+Body：
+Emotion：
+Action：
+Tought：
 ## ★3GoodThings★
 - 
 - 
@@ -55,11 +59,7 @@ shuhari: 守
 - [ ] 3. 
 
 
-### 以下、書けるだけメモ
-Body_体調：
-Emotion_気分：
-Action_行動：
-Tought_思考：
+### コンディションメモ
 睡眠時間：
 体重：
 食事
