@@ -34,8 +34,7 @@
               "title": "Thino"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -201,7 +200,7 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "ce066cf5ec2477c9",
+  "active": "f9b28644278dea69",
   "lastOpenFiles": [
     "読書ページ.md",
     "_DairyList.base",
