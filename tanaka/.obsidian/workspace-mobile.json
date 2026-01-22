@@ -50,7 +50,7 @@
             }
           },
           {
-            "id": "3b2df2aba4bf3ca6",
+            "id": "bcae6bd78af09761",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -65,7 +65,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -194,12 +194,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "45d6293d09bb078f",
+  "active": "bc0b0c9091fa9302",
   "lastOpenFiles": [
     "99.Inbox/20260121.md",
     "99.Inbox/20260122.md",
-    "99.Inbox/20260119.md",
+    "99.Inbox/memo.md",
     "99.Inbox/20260110.md",
+    "99.Inbox/20260119.md",
     "99.Inbox/20260120.md",
     "99.Inbox/20260118.md",
     "80_WebClip/20260119_2224_Google Antigravityとは？使い方や料金をご紹介.md",
@@ -221,7 +222,6 @@
     "80_WebClip/20260119_2227_Skills が増えすぎて管理に困ったら Obsidian で一覧化しよう｜松濤Vimmer.md",
     "80_WebClip/20260119_2226_スマホでコードを書くという選択肢.md",
     "80_WebClip/20260119_2223_APIって何？と聞かれた時に答える内容.md",
-    "80_WebClip/20260119_2220_【配布】Discord bot構築サポートプロンプト.md",
     "_DairyList.base",
     "_BookMarks_2026.base",
     "10_podcast",
