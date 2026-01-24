@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -216,7 +216,7 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "ce066cf5ec2477c9",
+  "active": "c9a73c80e1efe4ad",
   "lastOpenFiles": [
     "読書ページ.md",
     "99.Inbox/20260122.md",
