@@ -50,18 +50,33 @@
             }
           },
           {
-            "id": "bcae6bd78af09761",
+            "id": "354549cd8bf11e62",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "99.Inbox/20260121.md",
+                "file": "99.Inbox/20260123.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "20260121"
+              "title": "20260123"
+            }
+          },
+          {
+            "id": "96a5c3de0f2c0995",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "99.Inbox/20260124.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "20260124"
             }
           }
         ],
@@ -169,7 +184,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "99.Inbox/20260121.md",
+            "file": "99.Inbox/20260110.md",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -196,8 +211,11 @@
   },
   "active": "bc0b0c9091fa9302",
   "lastOpenFiles": [
-    "99.Inbox/20260121.md",
+    "99.Inbox/20260123.md",
+    "99.Inbox/20260124.md",
+    "_DairyList.base",
     "99.Inbox/20260122.md",
+    "99.Inbox/20260121.md",
     "99.Inbox/memo.md",
     "99.Inbox/20260110.md",
     "99.Inbox/20260119.md",
@@ -220,9 +238,6 @@
     "80_WebClip/20260119_2225_Google Antigravityとは？使い方や料金をご紹介.md",
     "80_WebClip/20260119_2229_Obsidianのノートのつながりを見つけるAtomic Insightsというプラグインを作りました.md",
     "80_WebClip/20260119_2227_Skills が増えすぎて管理に困ったら Obsidian で一覧化しよう｜松濤Vimmer.md",
-    "80_WebClip/20260119_2226_スマホでコードを書くという選択肢.md",
-    "80_WebClip/20260119_2223_APIって何？と聞かれた時に答える内容.md",
-    "_DairyList.base",
     "_BookMarks_2026.base",
     "10_podcast",
     "00_案件別",
