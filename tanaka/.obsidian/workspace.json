@@ -40,32 +40,17 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "99.Inbox/20260123.md",
+                "file": "99.Inbox/20260124.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "20260123"
-            }
-          },
-          {
-            "id": "15715f2120921f41",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "80_WebClip/20260124_1536_Geminiの「Gem」で自分専用のAWS認定講師を作ってみた  DevelopersIO.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "20260124_1536_Geminiの「Gem」で自分専用のAWS認定講師を作ってみた  DevelopersIO"
+              "title": "20260124"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -231,17 +216,23 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "15715f2120921f41",
+  "active": "c9a73c80e1efe4ad",
   "lastOpenFiles": [
-    "読書ページ.md",
-    "80_WebClip/20260124_1536_Geminiの「Gem」で自分専用のAWS認定講師を作ってみた  DevelopersIO.md",
     "99.Inbox/20260123.md",
+    "99.Inbox/20260124.md",
+    "80_WebClip/20260124_1622_Skills が増えすぎて管理に困ったら Obsidian で一覧化しよう｜松濤Vimmer.md",
+    "80_WebClip/20260124_1622_コードレビューの指摘は返信よりもCLAUDE.mdskillsに書け。同じ過ちを繰り返すな。.md",
+    "80_WebClip/20260124_1621_【Google AI連携】NotebookLM × Gemini で自分専用の「専門家AI」を作る方法｜浜山 登.md",
+    "80_WebClip/20260124_1621_ゆる言語学ラジオ全国ツアー2025「初ゆるし」レポまとめ+α｜ももたん.md",
+    "80_WebClip/20260124_1603_IPAの試験再編から読み解く「AIエージェント時代」の生存戦略と、新資格AB-100への挑戦.md",
+    "80_WebClip/20260124_1558_【Google Antigravity】新機能「Skills」について.md",
+    "80_WebClip/20260124_1536_Geminiの「Gem」で自分専用のAWS認定講師を作ってみた  DevelopersIO.md",
+    "読書ページ.md",
     "80_WebClip/20260124_1530_素人質問が大好きな教授にコードレビューを頼んでみた結果.md",
     "80_WebClip/20260124_1527_『まじん式 AI Slide Studio』の応用テクニック！｜まじん.md",
     "80_WebClip/20260124_1526_Excelどれくらいできれば安心？事務職向けチェックリスト  パソコン教室なら「パソコン市民講座」.md",
     "80_WebClip/20260124_1526_Claude Codeを使いこなす完全ガイド - 生産性を劇的に向上させるテクニック.md",
     "80_WebClip/20260124_1524_IPA高度区分試験攻略法(PMSTAU)── と思ったらまさかの試験区分再編！.md",
-    "99.Inbox/20260124.md",
     "99.Inbox/20260122.md",
     "80_WebClip/20260122_2249_手を動かしながら理解する N+1問題の再現と解消.md",
     "80_WebClip/20260122_2249_【SOLID原則④】 🧩 インターフェース分離の原則（Interface Segregation Principle）〜「使わないものは、持たなくていい」〜.md",
@@ -253,13 +244,7 @@
     "80_WebClip/20260122_2139_24時間の満足度を上げるために、やってよかった4つのこと｜肉村ハム蔵.md",
     "80_WebClip/20260122_2153_Obsidianでノート作成時にフロントマターを自動的に追加されるようにしてみる  DevelopersIO.md",
     "80_WebClip/20260122_2144_クロノタイプ診断 - 朝型 ｜ Seiko Time Design Action ｜ セイコーグループ.md",
-    "80_WebClip/20260122_2138_自然言語からSQLは魔法ではない.md",
-    "80_WebClip/20260122_2136_忘年会で「文庫の交換」してみました 2025｜ポプラ社一般書通信.md",
-    "80_WebClip/20260122_2052_『単体テストの考え方使い方』が良すぎた.md",
-    "80_WebClip/20260122_2050_AIとDB設計を考えてみた(前編)  マスタ管理はシングルテーブル設計+PostgreSQLがいいかもしれない.md",
     "_DairyList.base",
-    "80_WebClip/20260122_2049_AI に指示するのではなく、まずは AI に質問させた方が捗る.md",
-    "80_WebClip/20260122_2049_AWS SAPに合格したので各分野の振り返りと雑感.md",
     "_kindle_highlight.base",
     "_BookMarks_2026.base",
     "11_evoltech/1on1_202601",
