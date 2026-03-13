@@ -6,11 +6,15 @@ published_date:
 isbn: "9784569900070"
 cover: https://images-na.ssl-images-amazon.com/images/P/4569900070.09.LZZZZZZZ.jpg
 description: 
-highlight_count: 5
+highlight_count: 6
 created_at: 2026-03-13
 ---
 
 ## ハイライト
+
+必要なことは、何より自分自身の成長を意識することだ。未熟から成長に向かうプロセスこそ、生きる意味だと気づくことである。
+
+---
 
 幸せの基準を自分で設定できる人こそ、自分で幸せをコントロールできる人なのである。
 
