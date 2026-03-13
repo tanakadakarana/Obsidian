@@ -6,11 +6,19 @@ published_date:
 isbn: "9784569900070"
 cover: https://images-na.ssl-images-amazon.com/images/P/4569900070.09.LZZZZZZZ.jpg
 description: 
-highlight_count: 3
+highlight_count: 5
 created_at: 2026-03-13
 ---
 
 ## ハイライト
+
+幸せの基準を自分で設定できる人こそ、自分で幸せをコントロールできる人なのである。
+
+---
+
+まず今やるべきことは、実は内面と外面が離れていること、ギャップがあることを認識することである。
+
+---
 
 人生の価値は、自分が自分自身をどれだけ信じられたかで決まる。
 
